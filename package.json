@@ -1,0 +1,19 @@
+{
+  "name": "hardhat-network-config-generator",
+  "version": "1.0.0",
+  "description": "Generator for Hardhat network config with private EVM RPCs",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nikolay Bryskin",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0",
+  "type": "module",
+  "dependencies": {
+    "hardhat": "^3.0.15"
+  }
+}
